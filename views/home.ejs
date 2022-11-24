@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IPFS file upload</title>
+</head>
+<body>
+ <h1>upload file to IPFS</h1>
+ <form action="/upload" method="POST" enctype="multipart/form-data">
+    <lablel>Filename</lablel>
+    <input type="text" name="fileName">
+    <br><br>
+    <label>Upload file</label>
+    <input type="file" name="file">
+    <br><br>
+    <input type="submit" value="Submit">
+ </form>
+</body>
+</html>
